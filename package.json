@@ -1,0 +1,27 @@
+{
+  "name": "wallets_and_transactions_poc",
+  "version": "1.0.0",
+  "description": "Some examples for making HD Wallets and making transactions on Ethereum, Solana and Bitcoin",
+  "scripts": {
+    "eth": "node ethereum.js",
+    "sol": "node solana.js",
+    "bitcoin1": "node bitcoin_bitcoinjs.js",
+    "bitcoin2": "node bitcoin_bitcore.js",
+    "polygon": "node layer2_examples/polygon.js",
+    "arbitrum": "node layer2_examples/arbitrum.js",
+    "optimism": "node layer2_examples/optimism.js",
+    "dai": "node erc20_examples/dai.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.32.0",
+    "bip32": "^3.0.1",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^6.0.1",
+    "bitcore-lib": "^8.25.25",
+    "ecpair": "^2.0.1",
+    "ed25519-hd-key": "^1.2.0",
+    "ethers": "^5.5.3",
+    "tiny-secp256k1": "^2.2.0"
+  },
+  "author": "Branko"
+}
